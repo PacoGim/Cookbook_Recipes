@@ -52,7 +52,7 @@ files.forEach((file, idx) => {
     })
 })
 
-console.log(`${files.length} recipes validated`)
+console.log(`✓ Validated ${files.length} recipes`)
 
 function parseJSON(value) {
     try {
