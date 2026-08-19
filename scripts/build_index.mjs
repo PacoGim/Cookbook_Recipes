@@ -39,7 +39,7 @@ files.forEach((file, idx) => {
 
 writeFileSync("index.json", JSON.stringify(index))
 
-console.log(`✓ Built ${recipes.length} recipes`);
+console.log(`✓ Built ${files.length} recipes`);
 
 function parseJSON(value) {
     try {
