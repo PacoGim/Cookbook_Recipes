@@ -51,9 +51,9 @@ jobs:
       run: node scripts/build_index.mjs
     
     - name: Upload Pages artifact
-    uses: actions/upload-pages-artifact@v5
-    with:
-      path: ./dist
+      uses: actions/upload-pages-artifact@v5
+      with:
+        path: ./dist
     
   deploy:
     name: Deploy database
