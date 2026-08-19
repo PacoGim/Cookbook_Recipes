@@ -1,0 +1,63 @@
+{
+    "id": "01a0194f-f84b-73aa-92ca-5d4225a23a77",
+    "name": "Poulet aux Olives et au Citron Confit",
+    "prepTime": 20,
+    "cookTime": 120,
+    "servings": 4,
+    "serveWith": [
+        "Riz",
+        "Pâtes"
+    ],
+    "ingredients": [
+        {
+            "name": "Cuisses de poulet",
+            "qty": 4
+        },
+        {
+            "name": "Oignons",
+            "qty": 2
+        },
+        {
+            "name": "Gousses d'Ail",
+            "qty": 3
+        },
+        {
+            "name": "Citrons Confit",
+            "qty": 250,
+            "unit": "gr"
+        },
+        {
+            "name": "Olives Vertes",
+            "qty": 100,
+            "unit": "gr"
+        },
+        {
+            "name": "Citrons",
+            "qty": 0.5,
+            "detail": "pour le jus"
+        },
+        {
+            "name": "Raz el Hanout",
+            "qty": 1,
+            "unit": "big_spoon"
+        },
+        {
+            "name": "Curcuma en poudre",
+            "qty": 1,
+            "unit": "big_spoon"
+        },
+        {
+            "name": "Huile d'Olive"
+        },
+        {
+            "name": "Coriandre"
+        }
+    ],
+    "steps": [
+        "Dans une cocotte, faire revenir les morceaux de poulet dans un peu d’huile d’olive. Lorsque les morceaux sont bien dorés, les réserver.",
+        "Verser les oignons en tranches dans la casserole ainsi que l'ail. Mélanger et faire cuire jusqu’à ce que les oignons soient translucides.",
+        "Ajouter le curcuma et le raz el hanout, les olives et le citron confit. Bien mélanger. Ajouter le poulet cuit.",
+        "Couvrir avec de l’eau à hauteur. Couvrir avec un couvercle et faire mijoter pendant 2h.",
+        "Ajouter le jus d’un demi citron en fin de cuisson et répartir la coriandre."
+    ]
+}
