@@ -15,4 +15,4 @@ jobs:
         run: ls -la
 
       - name: Show Recipes
-        run ls -la Recipes
+        run: ls -la Recipes
