@@ -57,7 +57,7 @@ jobs:
     
   deploy:
     name: Deploy database
-    needs: build
+    needs: build_index
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     permissions:
       pages: write
