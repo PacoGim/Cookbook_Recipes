@@ -4,15 +4,32 @@ on:
   push:
 
 jobs:
-  inspect:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-      
-      - name: Show Files
-        run: ls -la
 
-      - name: Show Recipes
-        run: ls -la Recipes
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Run Validate Script
+        run: node scripts/validate.mjs
+  
+  build_index:
+    runs-on: ubuntu-latest
+    needs: validate
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v7
+
+    - name: Setup Node
+      uses: actions/setup-node@v7
+      with:
+        node-version: 24
+    - name: Run Build Index Script
+      run: node scripts/build_index.mjs
