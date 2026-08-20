@@ -19,13 +19,15 @@ files.forEach((file, idx) => {
     const content = parseJSON(data)
     index.push({
         name: content.name,
-        id: content.id
+        id: content.id,
+        totalTime: content.cookTime || 0 + content.prepTime || 0,
+        serveWith: content.serveWith
     })
 })
 
 writeFileSync("index.json", JSON.stringify(index))
 
-console.log(`✓ Built ${files.length} recipes`);
+console.log(`✓ Built ${files.length} recipes`)
 
 function parseJSON(value) {
     try {
