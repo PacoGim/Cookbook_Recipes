@@ -57,6 +57,11 @@ jobs:
       - name: Build index
         run: node scripts/build_index.mjs
 
+      - name: Inspect generated index
+        run: |
+          cat index.json
+          git status --short
+
       - name: Commit generated index
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
