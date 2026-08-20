@@ -1,0 +1,21 @@
+{
+    "id": "",
+    "name": "",
+    "prepTime?": 0,
+    "cookTime?": 0,
+    "servings?": 0,
+    "serveWith?": [
+        ""
+    ],
+    "ingredients": [
+        {
+            "name": "",
+            "qty?": 0,
+            "unit?": "g,kg,ml,l,tsp,tbsp",
+            "detail?": ""
+        }
+    ],
+    "steps": [
+        ""
+    ]
+}
