@@ -2,21 +2,7 @@ import { readdirSync, readFileSync, writeFileSync, rmSync, mkdirSync, cpSync } f
 import { join as pathJoin, extname } from "path"
 
 const DIRECTORY = "./recipes"
-const OUTPUT = "./dist"
 const recipesPath = readdirSync(DIRECTORY)
-
-rmSync(OUTPUT, {
-    recursive: true,
-    force: true
-})
-
-mkdirSync(OUTPUT, {
-    recursive: true
-})
-
-cpSync(DIRECTORY, `${OUTPUT}/recipes`, {
-    recursive: true
-})
 
 const files = recipesPath
     .filter(file => extname(file) === ".json")
@@ -39,7 +25,7 @@ files.forEach((file, idx) => {
 
 writeFileSync("index.json", JSON.stringify(index))
 
-console.log(`✓ Built ${recipes.length} recipes`);
+console.log(`✓ Built ${files.length} recipes`);
 
 function parseJSON(value) {
     try {
