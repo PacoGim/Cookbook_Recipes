@@ -1,0 +1,37 @@
+{
+    "id": "01a01e1d-ad40-775e-9743-ce54ff2beb43",
+    "name": "Tortilla de Patata",
+    "prepTime": 30,
+    "cookTime": 60,
+    "servings": 4,
+    "ingredients": [
+        {
+            "name": "Œufs",
+            "qty": 4
+        },
+        {
+            "name": "Oignons",
+            "qty": 2
+        },
+        {
+            "name": "Patates",
+            "qty": 4
+        },
+        {
+            "name": "Huile d'Olive"
+        },
+        {
+            "name": "Sel"
+        }
+    ],
+    "steps": [
+        "Éplucher, laver et sécher les pommes de terre. Les couper en fines rondelles, puis couper chaque rondelle en quatre à l’aide de ciseaux.",
+        "Faire chauffer l’huile d’olive à feu moyen dans une poêle profonde. Ajouter les pommes de terre et les laisser cuire doucement.",
+        "Émincer finement l’oignon, puis l’ajouter dans la poêle. Faire cuire lentement avec les pommes de terre jusqu’à ce que l’ensemble soit tendre et commence légèrement à dorer. Remuer régulièrement pendant la cuisson.",
+        "Une fois que tout est cuit, retirer les pommes de terre et l’oignon de la poêle et égoutter l’excédent d’huile. Réserver un peu de cette huile pour la cuisson de la tortilla.",
+        "Battre les œufs dans un saladier avec un peu de sel. Ajouter les pommes de terre et l’oignon égouttés, puis mélanger délicatement.",
+        "Remettre la poêle sur feu doux avec un peu de l’huile réservée. Verser toute la préparation, couvrir et laisser cuire, jusqu’à ce que le dessous soit doré et que la tortilla commence à prendre.",
+        "Poser une grande assiette ou un couvercle plat sur la poêle et retourner la tortilla d’un geste rapide. La faire glisser de nouveau dans la poêle afin de cuire l’autre face.",
+        "Laisser cuire doucement jusqu’à ce que la seconde face soit dorée et que l’intérieur soit pris selon la cuisson désirée. La tortilla doit être bien dorée des deux côtés."
+    ]
+}
