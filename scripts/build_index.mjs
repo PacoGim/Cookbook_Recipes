@@ -20,7 +20,7 @@ files.forEach((file, idx) => {
     index.push({
         name: content.name,
         id: content.id,
-        totalTime: content.cookTime || 0 + content.prepTime || 0,
+        totalTime: (content.cookTime || 0) + (content.prepTime || 0),
         serveWith: content.serveWith
     })
 })
