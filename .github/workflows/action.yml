@@ -22,25 +22,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: recipes-ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  validate:
+  process_recipes:
     runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
-
-      - name: Setup Node
-        uses: actions/setup-node@v7
-        with:
-          node-version: 24
-
-      - name: Validate recipes
-        run: node scripts/validate.mjs
-
-  build_index:
-    runs-on: ubuntu-latest
-    needs: validate
 
     permissions:
       contents: write
@@ -54,20 +42,31 @@ jobs:
         with:
           node-version: 24
 
+      - name: Normalize recipe IDs
+        run: node scripts/convert_name_to_id.mjs
+
+      - name: Validate recipes
+        run: node scripts/validate.mjs
+
       - name: Build index
         run: node scripts/build_index.mjs
 
-      - name: Commit generated index
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Show generated changes
+        run: git status --short
+
+      - name: Commit generated files
+        if: >
+          github.ref == 'refs/heads/main' &&
+          (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add index.json
+          git add recipes index.json
 
           if git diff --cached --quiet; then
-            echo "Index already up to date"
+            echo "Everything already up to date"
           else
-            git commit -m "chore: update recipe index"
+            git commit -m "chore: normalize recipes and update index"
             git push
           fi
