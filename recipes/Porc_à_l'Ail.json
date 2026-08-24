@@ -1,0 +1,54 @@
+{
+    "name": "Porc à l'Ail",
+    "prepTime": 5,
+    "cookTime": 40,
+    "servings": 4,
+    "ingredients": [
+        {
+            "name": "Échine de Porc",
+            "qty": 800,
+            "unit": "gr",
+            "detail": "coupée en morceaux"
+        },
+        {
+            "name": "Gousses d'Ail",
+            "qty": 18,
+            "detail": "non épluchées, légèrement écrasées"
+        },
+        {
+            "name": "Piment de Cayenne",
+            "qty": 1
+        },
+        {
+            "name": "Vin Blanc",
+            "qty": 250,
+            "unit": "ml"
+        },
+        {
+            "name": "Vinaigre de Vin Blanc",
+            "qty": 40,
+            "unit": "ml"
+        },
+        {
+            "name": "Huile d'Olive"
+        },
+        {
+            "name": "Persil"
+        },
+        {
+            "name": "Sel"
+        },
+        {
+            "name": "Poivre Noir"
+        }
+    ],
+    "steps": [
+        "Faire chauffer un filet d'huile d'olive dans une grande poêle à feu moyen-vif.",
+        "Ajouter l'échine de porc coupée en morceaux, saler et poivrer. Faire dorer la viande sur toutes ses faces en évitant de surcharger la poêle. Procéder en plusieurs fois si nécessaire, puis réserver la viande.",
+        "Écraser légèrement les gousses d'ail sans les éplucher, puis les faire revenir dans la même poêle à feu moyen pendant environ 4 à 5 minutes, sans les laisser brûler.",
+        "Émietter le piment de Cayenne sur les gousses d'ail et poursuivre la cuisson jusqu'à ce que l'ail soit bien doré.",
+        "Remettre le porc dans la poêle, ajouter le vin blanc et le persil, puis laisser cuire à feu moyen-vif jusqu'à ce que le liquide ait presque entièrement réduit.",
+        "Ajouter le vinaigre et poursuivre la cuisson jusqu'à ce que la sauce réduise de nouveau presque complètement, tout en conservant suffisamment de jus pour pouvoir saucer.",
+        "Servir immédiatement avec un peu de persil supplémentaire."
+    ]
+}
