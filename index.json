@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Poulet aux Olives et au Citron Confit",
+        "id": "poulet-aux-olives-et-au-citron-confit",
+        "totalTime": 140,
+        "serveWith": [
+            "Riz",
+            "Pâtes"
+        ]
+    },
+    {
+        "name": "Tortilla de Patata",
+        "id": "tortilla-de-patata",
+        "totalTime": 90
+    }
+]
