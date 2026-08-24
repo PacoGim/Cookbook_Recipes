@@ -39,12 +39,12 @@
         {
             "name": "Raz el Hanout",
             "qty": 1,
-            "unit": "big_spoon"
+            "unit": "tbsp"
         },
         {
             "name": "Curcuma en poudre",
             "qty": 1,
-            "unit": "big_spoon"
+            "unit": "tbsp"
         },
         {
             "name": "Huile d'Olive"
