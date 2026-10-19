@@ -37,6 +37,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+
+      - name: Generate paella image sizes
+        run: |
+          python -m pip install --disable-pip-version-check Pillow
+          python scripts/generate_paella_assets.py
+
       - name: Setup Node
         uses: actions/setup-node@v7
         with:
@@ -62,7 +72,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add recipes index.json
+          git add recipes index.json assets
 
           if git diff --cached --quiet; then
             echo "Everything already up to date"
