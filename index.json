@@ -1,5 +1,13 @@
 [
     {
+        "name": "Paella espagnole aux fruits de mer et riz Bahía",
+        "id": "paella-espagnole-aux-fruits-de-mer-et-riz-bahia",
+        "totalTime": 45,
+        "serveWith": [
+            "Quartiers de citron (facultatif)"
+        ]
+    },
+    {
         "name": "Porc à l'Ail",
         "id": "porc-a-l-ail",
         "totalTime": 45
