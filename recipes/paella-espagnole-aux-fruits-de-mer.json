@@ -1,6 +1,6 @@
 {
-    "id": "paella-espagnole-aux-fruits-de-mer-et-riz-bahia",
-    "name": "Paella espagnole aux fruits de mer et riz Bahía",
+    "id": "",
+    "name": "Paella Espagnole aux Fruits de mer",
     "prepTime": 15,
     "cookTime": 30,
     "servings": 4,
@@ -9,7 +9,7 @@
     ],
     "ingredients": [
         {
-            "name": "Riz Bahía",
+            "name": "Riz rond",
             "qty": 320,
             "unit": "g",
             "detail": "Ne pas rincer"
@@ -18,64 +18,63 @@
             "name": "Mélange de fruits de mer surgelés",
             "qty": 500,
             "unit": "g",
-            "detail": "Un sachet, décongelé, bien égoutté et séché. Si possible, séparer les grosses gambas des petits fruits de mer et des coquillages."
+            "detail": "Décongelé, égoutté et séché"
         },
         {
             "name": "Eau",
             "qty": 950,
             "unit": "ml",
-            "detail": "Prévoir environ 900 ml au départ et garder 50 ml d'eau chaude en réserve. Le ratio de référence est d'environ 2,5 volumes de bouillon par volume de riz mesuré."
+            "detail": "Réserver 50 ml"
         },
         {
             "name": "Fumet de poisson Maggi",
             "qty": 1,
             "unit": "tsp",
-            "detail": "Cuillère à café rase, à dissoudre dans l'eau chaude"
+            "detail": "Cuillère rase"
         },
         {
             "name": "Assaisonnement Carmencita Paella",
             "qty": 1.25,
             "unit": "tsp",
-            "detail": "Environ 1¼ cuillère à café rase pour 4 personnes, en remplacement du safran ajouté séparément"
+            "detail": "Cuillère rase"
         },
         {
             "name": "Huile d'olive",
             "qty": 30,
-            "unit": "ml",
-            "detail": "2 cuillères à soupe"
+            "unit": "ml"
         },
         {
             "name": "Tomates mûres",
             "qty": 200,
             "unit": "g",
-            "detail": "Environ 2 tomates moyennes, râpées"
+            "detail": "Environ 2 tomates, râpées"
         },
         {
             "name": "Ail",
             "qty": 2,
-            "detail": "Gousses à écraser au mortier avec le persil"
+            "detail": "Gousses"
         },
         {
             "name": "Persil frais",
             "qty": 10,
             "unit": "g",
-            "detail": "Haché, puis écrasé au mortier avec l'ail et un peu d'eau"
+            "detail": "Haché"
         },
         {
             "name": "Poivron rouge",
             "qty": 0.5,
-            "detail": "Facultatif, coupé en petits dés"
+            "detail": "Facultatif, coupé en dés"
         },
         {
             "name": "Sel",
-            "detail": "À ajouter uniquement si nécessaire après avoir goûté le bouillon, car le fumet Maggi et l'assaisonnement Carmencita en contiennent déjà"
+            "detail": "Selon le goût"
         }
     ],
     "steps": [
         "Décongeler les fruits de mer, les égoutter soigneusement et les sécher avec du papier absorbant. Si le sachet contient des gambas entières et des coquillages, les séparer si possible pour adapter leur temps de cuisson.",
         "Faire chauffer l'huile d'olive dans une grande poêle, idéalement de 30 à 32 cm. Faire revenir le poivron rouge pendant environ 3 minutes s'il est utilisé.",
         "Ajouter les tomates râpées et laisser cuire 7 à 10 minutes, jusqu'à obtenir un sofrito épais et bien réduit.",
-        "Ajouter le riz Bahía et le faire revenir environ 1 minute dans le sofrito, juste assez pour enrober les grains et leur faire absorber les saveurs, sans les laisser colorer.",
+        "Ajouter le riz rond et le faire revenir environ 1 minute dans le sofrito, juste assez pour enrober les grains et leur faire absorber les saveurs, sans les laisser colorer.",
         "Faire chauffer 950 ml d'eau et y dissoudre le fumet de poisson Maggi ainsi que l'assaisonnement Carmencita. Garder environ 50 ml d'eau chaude en réserve pour ajuster la cuisson si nécessaire.",
         "Écraser les gousses d'ail et le persil frais dans un mortier avec une petite quantité d'eau chaude prélevée sur la réserve. Verser environ 900 ml de bouillon dans la poêle, ajouter le mélange ail-persil et répartir le liquide en faisant doucement bouger la poêle. Porter à ébullition.",
         "Dès que le bouillon bout, réduire à feu doux ou moyen-doux. À partir de ce moment, ne plus remuer le riz à la cuillère ; faire seulement bouger doucement la poêle si nécessaire pour répartir le bouillon.",

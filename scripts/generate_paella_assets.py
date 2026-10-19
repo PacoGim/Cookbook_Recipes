@@ -3,7 +3,7 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
-SLUG = "paella-espagnole-aux-fruits-de-mer-et-riz-bahia"
+SLUG = "paella-espagnole-aux-fruits-de-mer"
 
 # Use dedicated high-resolution master crops for landscape banners and square icons.
 banner_master_path = ASSETS / f"{SLUG}_banner_big.webp"
