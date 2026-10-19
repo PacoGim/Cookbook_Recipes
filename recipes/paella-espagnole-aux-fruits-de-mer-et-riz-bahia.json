@@ -16,15 +16,27 @@
         },
         {
             "name": "Mélange de fruits de mer surgelés",
-            "qty": 425,
+            "qty": 500,
             "unit": "g",
-            "detail": "Décongelés, bien égouttés et épongés"
+            "detail": "Un sachet, décongelé, bien égoutté et séché. Si possible, séparer les grosses gambas des petits fruits de mer et des coquillages."
         },
         {
             "name": "Eau",
-            "qty": 750,
+            "qty": 950,
             "unit": "ml",
-            "detail": "Utiliser 700 ml au départ et garder 50 ml d'eau chaude en réserve"
+            "detail": "Prévoir environ 900 ml au départ et garder 50 ml d'eau chaude en réserve. Le ratio de référence est d'environ 2,5 volumes de bouillon par volume de riz mesuré."
+        },
+        {
+            "name": "Fumet de poisson Maggi",
+            "qty": 1,
+            "unit": "tsp",
+            "detail": "Cuillère à café rase, à dissoudre dans l'eau chaude"
+        },
+        {
+            "name": "Assaisonnement Carmencita Paella",
+            "qty": 1.25,
+            "unit": "tsp",
+            "detail": "Environ 1¼ cuillère à café rase pour 4 personnes, en remplacement du safran ajouté séparément"
         },
         {
             "name": "Huile d'olive",
@@ -41,7 +53,13 @@
         {
             "name": "Ail",
             "qty": 2,
-            "detail": "Gousses hachées"
+            "detail": "Gousses à écraser au mortier avec le persil"
+        },
+        {
+            "name": "Persil frais",
+            "qty": 10,
+            "unit": "g",
+            "detail": "Haché, puis écrasé au mortier avec l'ail et un peu d'eau"
         },
         {
             "name": "Poivron rouge",
@@ -49,37 +67,21 @@
             "detail": "Facultatif, coupé en petits dés"
         },
         {
-            "name": "Assaisonnement Carmencita Paella",
-            "qty": 1,
-            "unit": "tsp",
-            "detail": "Cuillère à café rase"
-        },
-        {
-            "name": "Fumet de poisson Maggi",
-            "qty": 1,
-            "unit": "tsp",
-            "detail": "Cuillère à café rase"
-        },
-        {
-            "name": "Poivre noir",
-            "detail": "Facultatif, selon le goût"
-        },
-        {
             "name": "Sel",
-            "detail": "Ne pas en ajouter au départ, car l'assaisonnement Carmencita et le fumet Maggi en contiennent déjà"
+            "detail": "À ajouter uniquement si nécessaire après avoir goûté le bouillon, car le fumet Maggi et l'assaisonnement Carmencita en contiennent déjà"
         }
     ],
     "steps": [
-        "Décongeler les fruits de mer, les égoutter soigneusement et les sécher avec du papier absorbant pour éviter qu'ils apportent trop d'eau à la cuisson.",
-        "Faire chauffer l'huile d'olive dans une grande poêle, idéalement de 30 à 32 cm. Faire revenir les fruits de mer pendant 2 à 3 minutes, puis les réserver. Laisser évaporer l'eau qu'ils auraient rendue.",
-        "Dans la même poêle, faire revenir le poivron rouge pendant 3 minutes s'il est utilisé. Ajouter l'ail haché, puis les tomates râpées. Laisser cuire 5 à 7 minutes, jusqu'à obtenir un sofrito épais et bien réduit.",
-        "Ajouter l'assaisonnement Carmencita et mélanger pendant 20 à 30 secondes.",
-        "Faire chauffer 700 ml d'eau et y dissoudre le fumet de poisson Maggi. Verser le bouillon dans la poêle, porter à ébullition et goûter avant d'ajouter le riz. Ne pas saler à ce stade.",
-        "Répartir uniformément les 320 g de riz Bahía dans la poêle. Mélanger une seule fois pour bien répartir les grains, puis ne plus remuer.",
-        "Maintenir une ébullition assez vive pendant 7 à 8 minutes, puis réduire à feu moyen-doux pour poursuivre la cuisson pendant 10 à 12 minutes. Adapter légèrement le feu selon la puissance du brûleur.",
-        "Après environ 10 minutes de cuisson du riz, répartir les fruits de mer réservés sur le dessus sans mélanger.",
-        "Vérifier la tendreté du riz et l'absorption du bouillon après 18 à 20 minutes de cuisson. Si le riz est encore ferme et que la poêle est sèche, ajouter progressivement un peu d'eau chaude prélevée sur les 50 ml réservés.",
-        "Pour obtenir une légère croûte dorée au fond, augmenter le feu pendant 30 à 60 secondes en surveillant attentivement pour ne pas brûler le riz.",
-        "Couper le feu et laisser reposer 5 minutes avant de servir. Ajouter du poivre si souhaité et accompagner de quartiers de citron."
+        "Décongeler les fruits de mer, les égoutter soigneusement et les sécher avec du papier absorbant. Si le sachet contient des gambas entières et des coquillages, les séparer si possible pour adapter leur temps de cuisson.",
+        "Faire chauffer l'huile d'olive dans une grande poêle, idéalement de 30 à 32 cm. Faire revenir le poivron rouge pendant environ 3 minutes s'il est utilisé.",
+        "Ajouter les tomates râpées et laisser cuire 7 à 10 minutes, jusqu'à obtenir un sofrito épais et bien réduit.",
+        "Ajouter le riz Bahía et le faire revenir environ 1 minute dans le sofrito, juste assez pour enrober les grains et leur faire absorber les saveurs, sans les laisser colorer.",
+        "Faire chauffer 950 ml d'eau et y dissoudre le fumet de poisson Maggi ainsi que l'assaisonnement Carmencita. Garder environ 50 ml d'eau chaude en réserve pour ajuster la cuisson si nécessaire.",
+        "Écraser les gousses d'ail et le persil frais dans un mortier avec une petite quantité d'eau chaude prélevée sur la réserve. Verser environ 900 ml de bouillon dans la poêle, ajouter le mélange ail-persil et répartir le liquide en faisant doucement bouger la poêle. Porter à ébullition.",
+        "Dès que le bouillon bout, réduire à feu doux ou moyen-doux. À partir de ce moment, ne plus remuer le riz à la cuillère ; faire seulement bouger doucement la poêle si nécessaire pour répartir le bouillon.",
+        "Si le sachet contient des gambas entières, les déposer sur le riz au début de la cuisson. Ajouter le reste du mélange de fruits de mer sur le dessus pendant les 5 à 8 dernières minutes, afin d'éviter de trop cuire les petits fruits de mer et les coquillages. Ne pas mélanger.",
+        "Compter environ 18 à 20 minutes de cuisson à partir de l'ébullition, en adaptant légèrement le feu à la poêle et au brûleur. Si le riz est encore ferme et que la poêle est sèche, ajouter progressivement un peu d'eau chaude prélevée sur la réserve.",
+        "Goûter le bouillon en cours de cuisson et rectifier le sel seulement si nécessaire. Si le fond est encore humide lorsque le riz est cuit, laisser évaporer à feu doux ; pour une légère croûte dorée, augmenter le feu pendant 20 à 30 secondes en surveillant attentivement.",
+        "Retirer du feu, couvrir et laisser reposer 5 minutes avant de servir. Accompagner de quartiers de citron si souhaité."
     ]
 }
